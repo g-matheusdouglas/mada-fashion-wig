@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="imagens/icons/favicon.ico" type="image/x-icon">
+    <title>Mada Fashion</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><img src="imagens/logos/logo-principal-branco.png" alt="Logo Mada FAshion">Mada Fashion Wig</h1>
+        <!-- Simbolo de menu na versão mobile -->
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Menu de navegação do site -->
+        <nav id="imenu">
+            <ul>
+                <a href="index.html" rel="prev" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="paginas/produtos.html" rel="next" target="_self">
+                    <li>Produtos</li>
+                </a>
+                <a href="paginas/novidades.html" rel="next" target="_self">
+                    <li>Novidades</li>
+                </a>
+                <!-- <a href="paginas/sobre.html" rel="next" target="_self">
+                    <li>Sobre</li>
+                </a> -->
+                <a href="paginas/contatos.html" rel="next" target="_self">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="container">
+            <div id="imagem-mada">
+                <figure>
+                    <img src="imagens/modelos/mada-foto-2.jpeg" alt="Mada">
+                    <figcaption><small>Maria Madalena fundadora da loja Mada Fashion Wig</small></figcaption>
+                </figure>
+            </div>
+            <section id="apresentação">
+                <div>
+                    <h2>Bem Vinda</h2>
+                    <p class="textoEstilizado">Mada Fashion Wig as melhores Fibras estão aqui!
+                    </p>
+                    <figure>
+                        <img src="imagens/modelos/mada-foto.jpeg" alt="Mada">
+                        <figcaption><small>Maria Madalena fundadora da loja Mada Fashion Wig</small></figcaption>
+                    </figure>
+                    <ul type="circle">
+                        <li>Jumbos para tranças</li>
+                        <li>Box Braids</li>
+                        <li>Rabo de cavalo</li>
+                        <li>Alongamento tic tac</li>
+                        <li>Cabelos Bio Humano</li>
+                        <li>Orgânicos</li>
+                        <li>Pomadas, Anéis, etc</li>
+                    </ul>
+                    <ul class="telefones">
+                        <li>
+                            <a href="https://wa.me/5511987548764" rel="external" target="_blank"><img src="imagens/logos/redes/rede-whatsapp-logo-40.png" alt="Whatsapp Logo">11 98754-8764</a>
+                        </li>
+                        <li>
+
+                            <a href="https://wa.me/5511992431221" rel="external" target="_blank"><img src="imagens/logos/redes/rede-whatsapp-logo-40.png" alt="Whatsapp Logo">11 99243-1221</a>
+                        </li>
+                    </ul>
+                    <a href="https://goo.gl/maps/D1sEx9jyzS6kmoYs8" rel="external" target="_blank">
+                        <address><!-- Rua Teófilo Castanho, Nº324 - Parque São Miguel - Guarulhos-SP -->R. Teófilo Castanho, 324 - Parque Sao Miguel, Guarulhos - SP, 07260-190</address>
+                    </a>
+                    <p>
+                       A loja abre à 9 horas Fecha às 18:30 de Segunda à Sexta, no Sábado abre ás 9:00 e Fecha às 18:00 
+                    </p>
+                </div>
+                <aside>
+                    <p>Visite nossas redes Sociais!</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100075848291714&mibextid=ZbWKwL" rel="external" target="_blank"><img src="imagens/logos/redes/rede-facebook-logo-16.png" alt="logo Facebook" class="imagemRedes">Mada Fashion Wing</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/madafashionwig" rel="external" target="_blank"><img src="imagens/logos/redes/rede-instagram-logo-16.png" alt="logo instagram" class="imagemRedes">@madafashionwig</a>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <h2>Mais Procurados</h2>
+        <section class="menu-imagens">
+            <a href="paginas/produtos/wigs.html" rel="next" target="_self">
+                <section class="cards">
+                    <img src="imagens/modelos/modelo-wig-300.jpg" alt="wings">
+                    <h3>Wig</h3>
+                </section>
+            </a>
+            <a href="paginas/produtos/cabelos.html" rel="next" target="_self">
+                <section class="cards">
+                    <img src="imagens/modelos/modelo-cabelos-300.jpeg" alt="lançamentos">
+                    <h3>Cabelos</h3>
+                </section>
+            </a>
+            <a href="paginas/produtos/jumbos.html" rel="next" target="_self">
+                <section class="cards">
+                    <img src="imagens/modelos/modelo-jumbo-300.jpg" alt="Jumbos">
+                    <h3>Jumbos</h3>
+                </section>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/g-matheusdouglas" rel="author" target="_blank">Matheus Douglas</a> &copy;</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

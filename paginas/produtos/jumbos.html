@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/produtos.css">
+    <link rel="stylesheet" href="../../estilos/style.css">
+    <link rel="stylesheet" href="../../estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="../../imagens/icons/favicon.ico" type="image/x-icon">
+    <title>Mada Fashion</title>
+    <style>
+        main p {
+            margin: 20px;
+        }
+
+        main h4 {
+            margin: 10px;
+        }
+
+        main ul {
+            list-style: none;
+            margin: 20px;
+        }
+
+        article.jumbo {
+            margin-bottom: 40px;
+        }
+
+        .baner {
+            max-width: 90%;
+            width: 400px;
+            display: block;
+            margin: auto;
+        }
+
+        article > h3 {
+            font-family: var(--font04);
+            font-size: 2.5rem;
+            border-bottom: 2px solid black;
+            margin: 10px 100px;
+            padding: 5px;
+        }
+
+        .cardProdutos p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><img src="../../imagens/logos/logo-principal-branco.png" alt="Logo Mada Fashion">Mada Fashion Wig</h1>
+        <!-- Simbolo de menu na versão mobile -->
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Menu de navegação do site -->
+        <nav id="imenu">
+            <ul>
+                <a href="../../index.html" rel="prev" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="../produtos.html" rel="next" target="_self">
+                    <li>Produtos</li>
+                </a>
+                <a href="../novidades.html" rel="next" target="_self">
+                    <li>Novidades</li>
+                </a>
+                <!-- <a href="../sobre.html" rel="next" target="_self">
+                    <li>Sobre</li>
+                </a> -->
+                <a href="../contatos.html" rel="next" target="_self">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Jumbos</h2>
+        <aside class="contatoParaCompra">
+            <a href="https://wa.me/5511987548764" target="_blank">
+                <h3>Compre Aqui</h3>
+                <div>
+                    <img src="../../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="">11 98754-8764
+                </div>
+            </a>
+        </aside>
+        <section id="catalogo-produtos">
+            <article class="jumbo">
+                <h3>SuperX</h3>
+                <section class="valor">
+                    <strong>Apartir de R$35,00</strong>
+                </section>
+                <img class="baner" src="imagens/jumbo-superx-1-500.jpg" alt="Jumbo-SuperX">
+                <p>
+                    Fibra resistente a temperaturas até 180º C
+                </p>
+                <ul>
+                    <h4>DESCRIÇÃO</h4>
+                    <li><strong>Marca: </strong> Zhang Hair</li>
+                    <li><strong>Peso:</strong> 400 gramas</li>
+                    <li><strong>Tipo:</strong> Double Triple Super X</li>
+                    <li><strong>Modelo:</strong> Jumbão (pacotão)</li>
+                    <li><strong>Métodos de colocação:</strong> Twist, Crochet, Tranças em geral.</li>
+                    <li><strong>Tamanho:</strong> 126 centímetros de comprimento.</li>
+                </ul>
+                <img class="baner" src="imagens/jumbo-superx-2-500.jpg" alt="Jumbo-superX">
+                <p>
+                    Temos todas as cores disponiveis!
+                </p>
+                <p>
+                    Entre elas:
+                </p>
+                <ul>
+                    <h4>CORES CLÁSSICAS</h4>
+                    <li><strong>Cor 1</strong> - Preto,</li>
+                    <li><strong>Cor 2</strong> - Castanho Escuro,</li>
+                    <li><strong>Cor 4</strong> - Castanho Chocolate,</li>
+                    <li><strong>Cor 8</strong> - Castanho Claro,</li>             
+                    <li><strong>Cor 27</strong> - Loiro Mel,</li>
+                    <li><strong>Cor 30</strong> - Loiro Escuro,</li>
+                    <li><strong>Cor 99J</strong> - Marsala,</li>
+                    <li><strong>Cor Burg</strong> - Vermelho Burg,</li>
+                    <li><strong>Cor 613</strong> - Loiro Claríssimo,</li>
+                    <li><strong>Cor 33</strong> - Acaju,</li>
+                    <li><strong>Cor 60</strong> - Branco,</li>
+                    <li><strong>Cor Rosa</strong>,</li>
+                    <li><strong>Cor Rosa Claro</strong>,</li>
+                    <li><strong>Cor Azul</strong>,</li>
+                    <li><strong>Cor Azul Claro</strong>,</li>
+                    <li><strong>Cor Roxo</strong>,</li>
+                    <li><strong>Cor Vermelho</strong>,</li>
+                    <li><strong>Cor M27</strong> - Mesclado Loiro Mel,</li>
+                </ul>
+                <ul>
+                    <h4>CORES OMBRÉS</h4>
+                    <li><strong>T2/27</strong> - Castanho Ombré com Loiro Mel</li>
+                    <li><strong>T2/30</strong> - Castanho Ombré com Loiro Escuro</li>
+                    <li><strong>T2/99J</strong> - Castanho Ombré com Marsala</li>
+                    <li><strong>MT51</strong> - Preto Ombré com Branco</li>
+                    <li><strong>T1B/Blue </strong>- Preto Ombré com Azul Escuro</li>
+                    <li><strong>T1B/Pink</strong> - Peto Ombré com Rosa</li>
+                    <li><strong>T1B/Burg</strong> - Preto Ombré com Vermelho Borgonha</li>
+                    <li><strong>T1B/Red</strong> - Preto Ombré com Vermelho</li>
+                    <li><strong>T1B/613</strong> - Preto Ombré</li>
+                </ul>
+            </article>
+            <article class="jumbo">
+                <h3>HiperX</h3>
+                <p>
+                    Quantidade e cores limitadas!
+                </p>
+                <section class="valor">
+                    <strong>Apartir de R$35,00</strong>
+                </section>
+                <img class="baner" src="imagens/jumbo-hiperx-1-500.jpg" alt="Jumbo-HiperX">
+                <ul>
+                    <h4>DESCRIÇÃO</h4>
+                    <li><strong>Marca: </strong> Brunetie</li>
+                    <li><strong>Peso:</strong> 400 gramas</li>
+                    <li><strong>Tipo:</strong> Double Triple Hiper X</li>
+                    <li><strong>Modelo:</strong> Jumbão (pacotão)</li>
+                    <li><strong>Métodos de colocação:</strong> Twist, Crochet, Tranças em geral.</li>
+                    <li><strong>Tamanho:</strong> 126 centímetros de comprimento.</li>
+                </ul>
+                <ul>
+                    <h4>CORES DISPONIVEIS</h4>
+                    <li><strong>Cor Orange</strong> - Laranja</li>
+                    <li><strong>Cor White</strong> - Branco</li>
+                    <li><strong>Cor Pink</strong> - Rosa</li>
+                    <li><strong>Cor M1B/PINK</strong> - Preto com Rosa</li>
+                </ul>
+            </article>
+            <article class="jumbo">
+                <h3>King Jumbão</h3>
+                <section class="valor">
+                    <strong>Apartir de R$26,00</strong>
+                </section>
+                <p>
+                    Quantidade e cores limitadas!
+                </p>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-1-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-1-300.jpg" alt="Jumbão cor 1">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> 1
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-2-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-2-300.jpg" alt="Jumbão cor 2">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> 2
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-4-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-4-300.jpg" alt="Jumbão cor 4">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> 4
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-33-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-33-300.jpg" alt="Jumbão cor 33">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> 33
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-613-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-613-300.jpg" alt="Jumbão cor 613">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> 613
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-t1b118-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-t1b118-300.jpg" alt="Jumbão cor T1b/118">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> T1b/188
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-t1b27-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-t1b27-300.jpg" alt="Jumbão cor T1b/27">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> T1b/27
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-t1b30-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-t1b30-300.jpg" alt="Jumbão cor T1b/30">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> T1b/30
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Jumbão</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/jumbo-king-jumbao-t227613-200.jpg" type="image/jpeg">
+                            <img src="imagens/jumbo-king-jumbao-t227613-300.jpg" alt="Jumbão cor 2">
+                        </picture>
+                        <p>
+                            <strong>Cor: </strong> T2/27/613
+                            <br>
+                            <strong>Peso: </strong>399g
+                            <br>
+                        </p>
+                    </div>
+                    <!-- <div class="preco">
+                        <p>Aparti<br>R$ 26,00</p>
+                    </div> -->
+                </div>
+            </article>
+        </section>
+        <small>*Consulte preços é disponibilidade*</small>
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/g-matheusdouglas" rel="author" target="_blank">Matheus Douglas</a> &copy;</p>
+    </footer>
+    <script src="../../scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+-------------------------------------
+Pequenas Telas: até 600px
+Celular: até 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+-------------------------------------
+*/
+
+@media screen and (min-width: 768px){
+
+    span#burguer {
+        display: none;
+    }
+
+    nav#imenu {
+        display: block;
+        padding-inline-start: 10px;
+        padding: 10px;
+    }
+
+    nav#imenu > ul > a > li {
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+
+    nav#imenu > ul > a > li:hover {
+        background-color: transparent;
+    }
+
+    nav#imenu > ul > a {
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+
+    nav#imenu > ul > a:hover {
+        color: var(--cor07);
+        background-color: var(--cor06);
+        box-shadow: 0px 0px 5px  var(--cor06), 0px 0px 25px var(--cor06), 0px 0px 50px var(--cor06), 0px 0px 100px var(--cor06);
+        transition: 0.4s;
+    }
+
+    nav#imenu > ul > a:active {
+        transition: 0s;
+        color: white;
+    }
+
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    /* Bem Vida */
+
+    section#container {
+        margin: 40px 0px;
+        text-align: center;
+    }
+
+    div#imagem-mada {
+        display: inline-block;
+        width: 35%;
+        margin-right: 3%;
+    }
+
+    div#imagem-mada > figure > img {
+        border-radius: 10px;
+        border: 3px solid var(--cor07);
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    div#imagem-mada > figure > figcaption {
+        font-size: 0.8rem;
+    }
+
+    section#apresentação {
+        max-width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    section#apresentação > div > figure {
+        display: none;
+    }
+    section#apresentação > div > ul {
+        text-align: left;
+    }
+
+    /* Cards de opções */
+
+    section.menu-imagens {
+        text-align: center;
+    }
+
+    section.menu-imagens section.cards {
+        display: inline-block;
+        max-width: 250px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav#imenu {
+        text-align: center;
+    }
+
+    section#apresentação > div > ul {
+        columns: 2;
+    }
+
+    section#apresentação > div > ul.telefones {
+        columns: 1;
+    }
+}

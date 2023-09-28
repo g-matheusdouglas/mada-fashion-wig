@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+main > h2 {
+    border-bottom: 2px solid var(--cor05);
+    margin: 0 20px 20px 20px;
+}
+
+section.valor {
+    color: var(--cor01);
+    display: inline-block;
+}
+
+aside.contatoParaCompra {
+    width: 126px;
+    display: inline-block;
+    position: sticky;
+    background-color: yellow;
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.212);
+    top: 5px;
+    left: 100%;
+}
+
+aside.contatoParaCompra:hover {
+    background-color: white;
+}
+
+aside.contatoParaCompra > a {
+    text-decoration: none;
+}
+
+aside.contatoParaCompra > a > h3 {
+    color: darkred;
+}
+
+section#catalogo-produtos {
+    text-align: center;
+}
+
+section#catalogo-produtos div.cardProdutos {
+    background-color: white;
+    display: inline-block;
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+section#catalogo-produtos div.cardProdutos > div.descricao {
+    padding: 10px;
+}
+
+section#catalogo-produtos div.cardProdutos > div.descricao > picture > img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+section#catalogo-produtos div.cardProdutos > div.preco {
+    background-color: yellow;
+    color: darkred;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+p.textoVermelho {
+    color: red;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+}
+
+@media screen and (min-width: 600px) {
+    section.valor {
+        font-size: 1.8rem;
+        margin-left: 20px;
+    }
+
+    section#catalogo-produtos div.cardProdutos {
+        max-width: 220px;
+    }
+
+    section#catalogo-produtos > p.textoVermelho {
+        font-size: 1.4rem;
+    }
+}

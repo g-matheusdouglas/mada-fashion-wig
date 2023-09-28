@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@700&family=Great+Vibes&family=Italianno&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Cor principal */
+    --cor01: #CC1100;
+    /* Cores Complementares */
+    --cor02: #FF2D19;
+    --cor03: #800B00;
+    --cor04: #00CC5B;
+    --cor05: #008039;
+    /* Cores Compostas */
+    --cor06: #FF7019;
+    --cor07: #664029;
+    --cor08: #35D24E;
+    --cor09: #3CFF19;
+    /* Fontes */
+    --font01: 'Berkshire Swash', cursive;
+    --font02: 'Dancing Script', cursive;
+    --font03: 'Great Vibes', cursive;
+    --font04: 'Italianno', cursive;
+}
+
+body, html {
+    background-color: rgb(233, 165, 174);
+}
+
+header {
+    background-image: linear-gradient(90deg, var(--cor03), var(--cor02));
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.185);
+}
+
+header > h1 {
+    font-family: var(--font04);
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.356);
+}
+
+header > h1 > img {
+    width: 80px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+span#burguer {
+    background-color: var(--cor03);
+    color: white;
+    border-top: 2px solid white;
+    display: block;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+
+nav#imenu {
+    display: none;
+}
+
+nav#imenu > ul {
+    list-style-type: none;
+}
+
+nav#imenu > ul > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#imenu > ul > a > li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--cor06);
+    border-top: 2px solid white;
+}
+
+nav#imenu > ul > a > li:hover {
+    background-color: var(--cor07);
+}
+
+main {
+    /* width: calc(100vw - 35px); */
+    background-color: white;
+    /* margin: auto; */
+    padding: 10px;
+}
+
+/* Bem Vinda */
+
+div#imagem-mada {
+    display: none;
+}
+
+section#apresentação {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+section#apresentação > div {
+    padding: 40px;
+}
+
+section#apresentação > div > h2 {
+    color: var(--cor07);
+    text-shadow: 1px 1px 5px #00803a94;;
+    font-family: var(--font04);
+    font-size: 6rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+section#apresentação > div > p.textoEstilizado {
+    text-align: center;
+    font-family: var(--font04);
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+section#apresentação > div > figure > img {
+    border-radius: 10px;
+    border: 2px solid var(--cor07);
+    width: 100%;
+}
+
+section#apresentação > div > figure > figcaption {
+    font-size: .8rem;
+    line-height: .8rem;
+    margin-bottom: 10px;
+}
+
+section#apresentação > div > ul {
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+
+section#apresentação > div > ul.telefones {
+    font-size: 1.9rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+section#apresentação > div > ul.telefones > li {
+    margin: 5px;
+}
+
+section#apresentação > div > ul.telefones > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+}
+
+section#apresentação > div > ul.telefones > li > a > img {
+    margin-right: 5px;
+    margin-bottom: -7px;
+}
+
+section#apresentação > div > ul.telefones > li > a:hover {
+    color: var(--cor05);
+}
+
+section#apresentação > div > a {
+    color: black;
+    text-decoration: none;
+}
+
+section#apresentação > div > a:hover {
+    text-decoration: underline;
+}
+
+section#apresentação > div > a > address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Visite nossas Redes Sociais! */
+
+section#apresentação > aside {
+    background-color: var(--cor07);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section#apresentação > aside > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section#apresentação > aside > ul {
+    list-style-type: none;
+}
+
+section#apresentação > aside > ul > li {
+    margin-bottom: 10px;
+}
+
+section#apresentação > aside > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+section#apresentação > aside img.imagemRedes {
+    margin-right: 5px;
+    margin-bottom: -2px;
+}
+/* Tiulo */
+
+main > h2 {
+    color: var(--cor05);
+    font-family: var(--font03);
+    font-size: 3rem;
+    /* font-style: italic; */
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.127);
+}
+
+/* Cards de opções */
+
+section.menu-imagens > a {
+    color: black;
+    text-decoration: none;
+}
+
+section.menu-imagens > a:hover {
+    color: var(--cor05);
+    
+}
+
+section.menu-imagens section.cards {
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section.menu-imagens > a > section.cards:hover {
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.209);
+}
+
+
+section.menu-imagens > a > section.cards > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section.menu-imagens > a >  section.cards > h3 {
+    font-family: var(--font03);
+    font-size: 2rem;
+    /* font-style: italic; */
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 20px;
+    border-top: 2px solid var(--cor05);
+}
+
+/* Rodapé */
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+}
+
+footer > p > a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}

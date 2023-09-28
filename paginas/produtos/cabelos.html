@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/produtos.css">
+    <link rel="stylesheet" href="../../estilos/style.css">
+    <link rel="stylesheet" href="../../estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="../../imagens/icons/favicon.ico" type="image/x-icon">
+    <title>Mada Fashion</title>
+    <style>
+        section.categoriaCabelo {
+            /* background-color: #3bff1919; */
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        section.categoriaCabelo > h3 {
+            color: var(--cor05);
+            font-family: var(--font03);
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--cor05);
+            margin: 0 20px 20px 20px;
+        }
+
+        section#catalogo-produtos div.cardProdutos > div.descricao > p {
+            text-align: left;
+        }
+
+        @media screen and (min-width: 600px) {
+            section.categoriaCabelo {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><img src="../../imagens/logos/logo-principal-branco.png" alt="Logo Mada Fashion">Mada Fashion Wig</h1>
+        <!-- Simbolo de menu na versão mobile -->
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Menu de navegação do site -->
+        <nav id="imenu">
+            <ul>
+                <a href="../../index.html" rel="prev" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="../produtos.html" rel="next" target="_self">
+                    <li>Produtos</li>
+                </a>
+                <a href="../novidades.html" rel="next" target="_self">
+                    <li>Novidades</li>
+                </a>
+                <!-- <a href="../sobre.html" rel="next" target="_self">
+                    <li>Sobre</li>
+                </a> -->
+                <a href="../contatos.html" rel="next" target="_self">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cabelos</h2>
+        <section class="valor">
+            <strong>Cabelos apartir de R$120,00</strong>
+        </section>
+        <aside class="contatoParaCompra">
+            <a href="https://wa.me/5511987548764" target="_blank">
+                <h3>Compre Aqui</h3>
+                <div>
+                    <img src="../../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="">11 98754-8764
+                </div>
+            </a>
+        </aside>
+
+        <section id="catalogo-produtos">
+            <!-- Bio Fibra -->
+            <section class="categoriaCabelo">
+                <h3>Bio Fibra</h3>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Brazilian Idol</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-brazilianidol-mt1b27a-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-brazilianidol-mt1b27a-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Bonitão<br><strong>Cor:</strong> MT1B/27b<br><strong>Peso:</strong> 585g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Brazilian Idol</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-brazilianidol-mt1bbug-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-brazilianidol-mt1bbug-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Bonitão<br><strong>Cor:</strong> MT1B/BUG<br><strong>Peso:</strong> 585g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Brazilian Idol</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-brazilianidol-mt1bbug-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-brazilianidol-mt430b-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Lisa GG<br><strong>Cor:</strong> MT4/30b<br><strong>Peso:</strong> 578g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>TrueMe</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-sleek-2-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-sleek-2-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Fiama<br><strong>Cor:</strong> 2b<br><strong>Peso:</strong> 200g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Brazilian Vigin Hair</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-sleek-hl433613+1427-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-sleek-hl433613+1427-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Whitney<br><strong>Cor:</strong> HL433/613+1427<br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Fibra de Colágeno -->
+            <section class="categoriaCabelo">
+                <h3>Fibra de Colágeno</h3>
+                <div>
+                    <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Be You</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-beyou-2-300.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-beyou-2-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Fibra: </strong>Bio Humanizado <br><strong>Cor:</strong> 2<br><strong>Peso:</strong> 310g
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- 100% Orgânico -->
+            <section class="categoriaCabelo">
+                <h3>100% Orgânico</h3>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Cherey</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-cherey-t1b30-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-cherey-t1b30-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Textura: </strong>Yaki <br><strong>Cor:</strong> T1B/30<br><strong>Peso:</strong> 300g
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Tranças -->
+            <section class="categoriaCabelo">
+                <h3>Tranças</h3>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Yan Hair</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-yanhair-2-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-yanhair-2-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Goodness Braids<br><strong>Cor:</strong> 2<br><strong>Peso:</strong> 300g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Yan Hair</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-yanhair-t1b27-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-yanhair-t1b27-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Goodness Braids<br><strong>Cor:</strong>T1B/27<br><strong>Peso:</strong> 300g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Zhang</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/cabelo-senegaltwist-t1b30-200.jpg" type="image/jpeg">
+                            <img src="imagens/cabelo-senegaltwist-t1b30-300.jpg" alt="">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Senegal Twst 28<br><strong>Cor:</strong> T1B/30<br><strong>Peso:</strong> 360g<br><strong>Quantidade:</strong> 3x 36pcs
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <small>*Consulte preços é disponibilidade*</small>
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/g-matheusdouglas" rel="author" target="_blank">Matheus Douglas</a> &copy;</p>
+    </footer>
+    <script src="../../scripts/script.js"></script>
+</body>
+</html>

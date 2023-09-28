@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="../imagens/icons/favicon.ico" type="image/x-icon">
+    <title>Mada Fashion</title>
+    <style>
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: var(--cor05);
+        }
+
+        main {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        main > h2 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            margin: 0px 0px 20px 0px;
+        }
+
+        main > p {
+            margin: 10px;
+        }
+
+        main > ul {
+            margin: 10px 0px 20px 0px;
+        }
+
+        main > ul > li {
+            list-style: none;
+            margin: 5px;
+        }
+
+        main > ul > li > a >  img {
+            margin: 0px 5px -3px 20px;
+        }
+
+        section.endereco {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        section.endereco > h3 {
+            margin: 10px;
+        }
+
+        section.endereco > iframe {
+            max-width: 100%;
+            max-height: 250px;
+            border-radius: 10px;
+        }
+
+        @media screen and (min-width: 600px) {
+            main {
+                padding: 20px 40px;
+            }
+
+            section.endereco > iframe {
+                max-width: 100%;
+                max-height: none;
+            }
+        }
+
+    </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><img src="../imagens/logos/logo-principal-branco.png" alt="Logo Mada Fashion">Mada Fashion Wig</h1>
+        <!-- Simbolo de menu na versão mobile -->
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Menu de navegação do site -->
+        <nav id="imenu">
+            <ul>
+                <a href="../index.html" rel="prev" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="../paginas/produtos.html" rel="next" target="_self">
+                    <li>Produtos</li>
+                </a>
+                <a href="../paginas/novidades.html" rel="next" target="_self">
+                    <li>Novidades</li>
+                </a>
+                <!-- <a href="../paginas/sobre.html" rel="next" target="_self">
+                    <li>Sobre</li>
+                </a> -->
+                <a href="../paginas/contatos.html" rel="next" target="_self">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Quer Entra em contato conosco?</h2>
+        <p>
+            Todos nossos contatos estão abaixo, você também pode falar conosco por meio das nossas redes sociais.
+            <br>
+            <strong>Horário de atendimento: </strong> 09:00 às 18:30 de Segunda a Sexta e 09:00 às 18:00 àos Sabados
+        </p>
+        <h3>Contatos da Loja</h3>
+        <ul class="telefones">
+            <!-- Whatsapp -->
+            <li>
+                <a href="https://wa.me/5511987548764" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="Whatsapp Logo">11 98754-8764</a>
+            </li>
+            <li>
+
+                <a href="https://wa.me/5511992431221" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="Whatsapp Logo">11 99243-1221</a>
+            </li>
+            <!-- Redes Sociais -->
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100075848291714&mibextid=ZbWKwL" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-facebook-logo-16.png" alt="logo Facebook">Mada Fashion Wing</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/madafashionwig" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-instagram-logo-16.png" alt="logo instagram">@madafashionwig</a>
+            </li>
+        </ul>
+        <!-- <h3>Contatos da Trancista</h3>
+        <ul class="telefones">
+
+            <li>
+                <a href="https://wa.me/5511985531283" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="Whatsapp Logo">11 98553-1283</a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/bellusnago" rel="external" target="_blank"><img src="../imagens/logos/redes/rede-instagram-logo-16.png" alt="logo instagram">@bellusnago</a>
+            </li>
+        </ul> -->
+        <p>
+            <em>Gostou de algum produto e gostaria de comprar?</em>
+            <br>
+            Consulte a disponibilidade, <em>fazemos entregas via Uber Moto</em>.
+        </p>
+        
+        <section class="endereco">
+            <h3>Endereço da Loja</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4108.421672784302!2d-46.409534397239675!3d-23.453692923053506!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63b467f4a491%3A0x48d205345333f542!2sMada%20fashion%20wig!5e0!3m2!1spt-BR!2sbr!4v1688780643133!5m2!1spt-BR!2sbr" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://goo.gl/maps/D1sEx9jyzS6kmoYs8" rel="external" target="_blank">
+                <address>R. Teófilo Castanho, 324 - Parque Sao Miguel, Guarulhos - SP, 07260-190</address>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/g-matheusdouglas" rel="author" target="_blank">Matheus Douglas</a> &copy;</p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

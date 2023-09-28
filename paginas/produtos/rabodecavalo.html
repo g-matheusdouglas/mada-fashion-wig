@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/produtos.css">
+    <link rel="stylesheet" href="../../estilos/style.css">
+    <link rel="stylesheet" href="../../estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="../../imagens/icons/favicon.ico" type="image/x-icon">
+    <title>Mada Fashion</title>
+    <style>
+        section.categoriaCabelo {
+            /* background-color: #3bff1919; */
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        section.categoriaCabelo > h3 {
+            color: var(--cor05);
+            font-family: var(--font03);
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--cor05);
+            margin: 0 20px 20px 20px;
+        }
+
+        section#catalogo-produtos div.cardProdutos > div.descricao > p {
+            text-align: left;
+        }
+
+        @media screen and (min-width: 600px) {
+            section.categoriaCabelo {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1><img src="../../imagens/logos/logo-principal-branco.png" alt="Logo Mada Fashion">Mada Fashion Wig</h1>
+        <!-- Simbolo de menu na versão mobile -->
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Menu de navegação do site -->
+        <nav id="imenu">
+            <ul>
+                <a href="../../index.html" rel="prev" target="_self">
+                    <li>Home</li>
+                </a>
+                <a href="../produtos.html" rel="next" target="_self">
+                    <li>Produtos</li>
+                </a>
+                <a href="../novidades.html" rel="next" target="_self">
+                    <li>Novidades</li>
+                </a>
+                <!-- <a href="../sobre.html" rel="next" target="_self">
+                    <li>Sobre</li>
+                </a> -->
+                <a href="../contatos.html" rel="next" target="_self">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Rabo de Cavalo</h2>
+        <section class="valor">
+            <!-- <strong>Cabelos apartir de R$120,00</strong> -->
+        </section>
+        <aside class="contatoParaCompra">
+            <a href="https://wa.me/5511987548764" target="_blank">
+                <h3>Compre Aqui</h3>
+                <div>
+                    <img src="../../imagens/logos/redes/rede-whatsapp-logo-16.png" alt="">11 98754-8764
+                </div>
+            </a>
+        </aside>
+        <section id="catalogo-produtos">
+            <!-- Rabo de Cavalo -->
+            <section class="categoriaCabelo">
+                <h3>Rabo de Cavalo</h3>
+                <p class="textoVermelho">
+                    <strong>Rabo de Cavalo apartir de R$100,00</strong>
+                </p>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <!-- <h4></h4> -->
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-t1bred-300.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-t1bred-300.jpeg" alt="Raba de cavalo cor t1bred">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Cacheado <br><strong>Cor:</strong> T1Brend<br><strong>Peso:</strong> 170g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <!-- <h4></h4> -->
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-t1b30-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-t1b30-300.jpeg" alt="Raba de cavalo cor t1b/30">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Cacheado <br><strong>Cor:</strong> T1B/30<br><strong>Peso:</strong> 170g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <!-- <h4></h4> -->
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-t1b27-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-t1b27-300.jpeg" alt="Raba de cavalo cor t1b/27">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Cacheado <br><strong>Cor:</strong> T1B/27<br><strong>Peso:</strong> 170g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <!-- <h4></h4> -->
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-118-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-118-300.jpeg" alt="Raba de cavalo cor 118">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Cacheado <br><strong>Cor:</strong> T1B/27<br><strong>Peso:</strong> 170g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <!-- <h4></h4> -->
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-4-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-4-300.jpeg" alt="Raba de cavalo cor 4">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Liso <br><strong>Cor:</strong> T1Brend<br><strong>Peso:</strong> 170g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Fashion Classic</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-sp2420-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-sp2420-300.jpeg">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Funk <br><strong>Cor:</strong> SP2/4/30<br><strong>Peso:</strong> 170g<br><strong>Tam:</strong> 80cm
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Fashion Classic</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-mt1b613-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-mt1b613-300.jpeg">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Nicola<br><strong>Cor:</strong> MT1B/613<br><strong>Peso:</strong> 180g<br><strong>Tam:</strong> 70cm
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Fashion Classic</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-1b-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-1b-300.jpeg">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Funk<br><strong>Cor:</strong> 1B<br><strong>Peso:</strong> 170g<br><strong>Tam:</strong> 80cm
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Brazilian Idol</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/rabo-de-cavalo-p427-200.jpeg" type="image/jpeg">
+                            <img src="imagens/rabo-de-cavalo-p427-300.jpeg">
+                        </picture>
+                        <p>
+                            <strong>Estilo: </strong>Hestia<br><strong>Cor:</strong> P4/27<br><strong>Peso:</strong> 115g<br><strong>Tam:</strong> 35cm
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Afro Puff -->
+            <section class="categoriaCabelo">
+                <h3>Afro Puff</h3>
+                <p class="textoVermelho">
+                    <strong>Afro Puff apartir de R$60,00</strong>
+                </p>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Black Beauty</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/afropuff-4-200.jpeg" type="image/jpeg">
+                            <img src="imagens/afropuff-4-300.jpeg" alt="Afro Puff cor 4">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Afro Puff<br><strong>Cor:</strong> 4<br><strong>Peso:</strong> 135g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Black Beuty</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/afropuff-t1b27-200.jpeg" type="image/jpeg">
+                            <img src="imagens/afropuff-t1b27-300.jpeg" alt="Afro Puff cor t1b/27">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Afro Puff<br><strong>Cor:</strong> T1B/27<br><strong>Peso:</strong> 135g
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="descricao">
+                        <h4>Black Beuty</h4>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/afropuff-burg-200.jpeg" type="image/jpeg">
+                            <img src="imagens/afropuff-burg-300.jpeg" alt="Afro Puff cor t1b/27">
+                        </picture>
+                        <p>
+                            <strong>Estilo:</strong> Afro Puff<br><strong>Cor:</strong> BURG<br><strong>Peso:</strong> 135g
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <small>*Consulte preços é disponibilidade*</small>
+    </main>
+    <footer>
+        <p>Developed by <a href="https://github.com/g-matheusdouglas" rel="author" target="_blank">Matheus Douglas</a> &copy;</p>
+    </footer>
+    <script src="../../scripts/script.js"></script>
+</body>
+</html>
